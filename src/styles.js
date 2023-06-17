@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const theme = {
   colors: {
-
+    primaryBulue: "#686cf8",
+    secondaryBlue: "#39b8f3",
+    gradient: "radial-gradient(circle, rgba(12,7,47,1) 0%, rgba(5,5,5,1) 85%)",
   },
 
   fontFamily: {
@@ -36,7 +38,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-      font-size: 1.5rem;
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-size: 1.3rem;
   }
 
   figcaption {
@@ -57,13 +63,13 @@ export const GlobalStyle = createGlobalStyle`
 
   @media screen and (min-width: 768px) {
     html {
-      font-size: 110%;
+      font-size: 120%;
     }
 }
 
   @media screen and (min-width: 1024px) {
       html {
-        font-size: 120%;
+        font-size: 130%;
       }
   }
 
