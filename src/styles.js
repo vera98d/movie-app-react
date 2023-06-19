@@ -4,7 +4,7 @@ export const theme = {
   colors: {
     primaryBulue: "#686cf8",
     secondaryBlue: "#39b8f3",
-    gradient: "radial-gradient(circle, rgba(12,7,47,1) 0%, rgba(5,5,5,1) 85%)",
+    gradient: "radial-gradient(circle, rgba(37,22,80,1) 0%, rgba(5,5,5,1) 84%)",
   },
 
   fontFamily: {
@@ -27,10 +27,12 @@ export const GlobalStyle = createGlobalStyle`
   html, body{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+    overflow-x: hidden;
   }
 
   p {
-    font-size: 1rem;  
+    font-size: 1rem; 
+    color: white; 
   }
 
   h1 {
@@ -38,11 +40,15 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   h2 {
-      font-size: 2rem;
+      font-size: 1.8rem;
   }
 
   h3 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
+  }
+
+  h4 {
+      font-size: 1.2rem;
   }
 
   figcaption {
