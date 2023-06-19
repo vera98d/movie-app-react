@@ -12,7 +12,7 @@ Live demo: [MovieApp React](https://vera98d.github.io/movie-app-react/)
 - [Styled-Components](https://styled-components.com/)
 - [React Router](https://reactrouter.com)
 - [react-spinners-kit](https://www.npmjs.com/package/react-spinners-kit)
-- [react-responsive-carousel]([https://reactrouter.com](https://www.npmjs.com/package/react-responsive-carousel))
+- [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
 - [react-icons](https://react-icons.github.io/react-icons/)
 
 ## Setup:
